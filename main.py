@@ -4,7 +4,7 @@ path="/home/mohit/Pictures"
 
 files = [f for f in os.listdir(path) if f.endswith(".png") or f.endswith(".jpg")or f.endswith(".jpeg")or f.endswith(".webp") or f.endswith(".avif")]
 i=1
-    #if file.endswith(".png") or file.endswith(".jpg") or file.endswith(".jpeg") or file.endswith(".webp"):
+
 for file in files:
     old_path=os.path.join(path,file)
     extension = os.path.splitext(file)[1]
